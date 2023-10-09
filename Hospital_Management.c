@@ -1,6 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<conio.h>
+
+// Function prototypes
+void admitPatient();
+void patientList();
+void dischargePatient();
+void addDoctor();
+void doctorList();
 
 struct patient{
     int id;
